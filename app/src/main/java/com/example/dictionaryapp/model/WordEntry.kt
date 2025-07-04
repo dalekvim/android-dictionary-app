@@ -2,6 +2,7 @@ package com.example.dictionaryapp.model
 
 import kotlinx.serialization.Serializable
 
+@Serializable
 data class WordEntry(
     val word: String,
     val phonetics: List<Phonetic>,
